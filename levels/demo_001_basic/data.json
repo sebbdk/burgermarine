@@ -1,0 +1,58 @@
+{
+	"people":[
+		{
+			"name":"Narrator"
+		},
+		{
+			"name":"Bill Port",
+			"isPlayer":true
+		},
+		{
+			"name":"Humti"
+		}
+	],
+	"conversations":{
+		"convo01":{
+			"pause":true,
+			"statements":[
+				{
+					"person":0,
+					"text":"Hello i am a test!"
+				},
+				{
+					"person":0,
+					"text":"Hello i am response to text!"
+				},
+				{
+					"person":1,
+					"text":"..i like cookies! (press space to close this)"
+				}
+			]
+		},
+		"humptiIntro":{
+			"pause":true,
+			"statements":[
+				{
+					"person":2,
+					"text":"Greetings!"
+				},
+				{
+					"person":2,
+					"text":"This is the test world!\nA Wonderfull place where you can test the various features of the engine!"
+				},
+				{
+					"person":1,
+					"text":"Oh really?, sounds neat!"
+				},
+				{
+					"person":2,
+					"text":"Now stand back or the bunny gets it!"
+				},
+				{
+					"person":2,
+					"text":"Oh no!"
+				}
+			]
+		}
+	}
+}
